@@ -41,13 +41,13 @@ void loop() {
   digitalWrite(led5,LOW);
 
   digitalWrite(led1,HIGH);
-  delay(1000);
+  delay(random(200,3000));
   digitalWrite(led2,HIGH);
-  delay(1000);
+  delay(random(200,3000));
   digitalWrite(led3,HIGH);
-  delay(1000);
+  delay(random(200,3000));
   digitalWrite(led4,HIGH);
-  delay(random(700,3000));
+  delay(random(200,3000));
   digitalWrite(led5,HIGH);
   digitalWrite(led1,LOW);
   digitalWrite(led2,LOW);
